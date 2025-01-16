@@ -1,6 +1,8 @@
 import { allPosts } from "@/.contentlayer/generated"
 import Link from "next/link"
 
+const TAG = "app/page.tsx"
+
 export default function Home() {
   return (
     <div className="prose dark:prose-invert">

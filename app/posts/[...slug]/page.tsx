@@ -1,9 +1,7 @@
 import { notFound } from "next/navigation"
 import { allPosts } from "contentlayer/generated"
-
 import { Metadata } from "next"
 import { Mdx } from "@/components/mdx-components"
-
 interface PostProps {
   params: {
     slug: string[]
@@ -11,7 +9,8 @@ interface PostProps {
 }
 
 async function getPostFromParams(params: PostProps["params"]) {
-  const slug = params?.slug?.join("/")
+  const rawSlug = params?.slug?.join("/")
+  const slug = decodeURIComponent(rawSlug)
   const post = allPosts.find((post) => post.slugAsParams === slug)
 
   if (!post) {
@@ -44,7 +43,6 @@ export async function generateStaticParams(): Promise<PostProps["params"][]> {
 
 export default async function PostPage({ params }: PostProps) {
   const post = await getPostFromParams(params)
-
   if (!post) {
     notFound()
   }

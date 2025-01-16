@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import { allPages } from "contentlayer/generated"
-
 import { Mdx } from "@/components/mdx-components"
+
+const TAG = "app/[...slug]/page.tsx"
 
 interface PageProps {
   params: {
@@ -13,7 +14,6 @@ interface PageProps {
 async function getPageFromParams(params: PageProps["params"]) {
   const slug = params?.slug?.join("/")
   const page = allPages.find((page) => page.slugAsParams === slug)
-
   if (!page) {
     null
   }
