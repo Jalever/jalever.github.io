@@ -6,8 +6,8 @@ const nextConfig = {
   swcMinify: true,
   output: "export",
   distDir: "docs",
-  assetPrefix: "/docs",
-  basePath: "/docs",
+  assetPrefix: "/jalever.github.io/docs",
+  basePath: "/jalever.github.io/docs",
 };
 
 module.exports = withContentlayer(nextConfig);
