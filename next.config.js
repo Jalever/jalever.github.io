@@ -5,9 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: "export",
-  distDir: "docs",
-  assetPrefix: "/jalever.github.io/docs",
-  basePath: "/jalever.github.io/docs",
+  // distDir: "docs",
+  // assetPrefix: "/docs",
+  // basePath: "/docs",
 };
 
 module.exports = withContentlayer(nextConfig);
