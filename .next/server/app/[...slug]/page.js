@@ -229,7 +229,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4697:
+/***/ 9119:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -297,7 +297,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1993))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 622))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6586)), "/Users/friedrichchen/projects/jalever.github.io/app/layout.tsx"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1993))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 622))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -421,7 +421,7 @@ async function PagePage({ params  }) {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [413,22,45,637,565,528], () => (__webpack_exec__(4697)));
+var __webpack_exports__ = __webpack_require__.X(0, [413,22,45,637,953,699], () => (__webpack_exec__(9119)));
 module.exports = __webpack_exports__;
 
 })();

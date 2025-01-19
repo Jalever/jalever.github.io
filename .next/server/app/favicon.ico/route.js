@@ -54,7 +54,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 2365:
+/***/ 134:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -113,7 +113,7 @@ function GET() {
 
 const dynamic = 'force-static'
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.9.0_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=%2FUsers%2Ffriedrichchen%2Fprojects%2Fjalever.github.io%2Fapp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=%2Fjalever.github.io&assetPrefix=%2Fjalever.github.io%2F&nextConfigOutput=export&preferredRegion=!
+;// CONCATENATED MODULE: ./node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.9.0_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=%2FUsers%2Ffriedrichchen%2Fprojects%2Fjalever.github.io%2Fapp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=!
 
     
 
@@ -152,7 +152,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [413,22,957,180], () => (__webpack_exec__(2365)));
+var __webpack_exports__ = __webpack_require__.X(0, [413,22,957,180], () => (__webpack_exec__(134)));
 module.exports = __webpack_exports__;
 
 })();

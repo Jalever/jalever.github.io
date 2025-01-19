@@ -175,7 +175,7 @@ const _imageconfig = __webpack_require__(5843);
 const _imageconfigcontext = __webpack_require__(744);
 const _warnonce = __webpack_require__(618);
 const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(9552));
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/jalever.github.io/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
 const allImgs = new Map();
 let perfObserver;
 if (true) {

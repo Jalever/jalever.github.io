@@ -33,7 +33,7 @@ module.exports = require("next/dist/compiled/cookie");
 
 /***/ }),
 
-/***/ 2411:
+/***/ 5599:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -67,7 +67,7 @@ async function GET(request) {
     return new Response("Hello, Next.js!");
 }
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.9.0_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fhello%2Froute&name=app%2Fapi%2Fhello%2Froute&pagePath=private-next-app-dir%2Fapi%2Fhello%2Froute.ts&appDir=%2FUsers%2Ffriedrichchen%2Fprojects%2Fjalever.github.io%2Fapp&appPaths=%2Fapi%2Fhello%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=%2Fjalever.github.io&assetPrefix=%2Fjalever.github.io%2F&nextConfigOutput=export&preferredRegion=!
+;// CONCATENATED MODULE: ./node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.9.0_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fhello%2Froute&name=app%2Fapi%2Fhello%2Froute&pagePath=private-next-app-dir%2Fapi%2Fhello%2Froute.ts&appDir=%2FUsers%2Ffriedrichchen%2Fprojects%2Fjalever.github.io%2Fapp&appPaths=%2Fapi%2Fhello%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=!
 
     
 
@@ -106,7 +106,7 @@ async function GET(request) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [413,22,957], () => (__webpack_exec__(2411)));
+var __webpack_exports__ = __webpack_require__.X(0, [413,22,957], () => (__webpack_exec__(5599)));
 module.exports = __webpack_exports__;
 
 })();

@@ -208,8 +208,8 @@ var e=__webpack_require__(8038);function t(e){return e&&"object"==typeof e&&"def
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Inter_b778b3', '__Inter_Fallback_b778b3'","fontStyle":"normal"},
-	"className": "__className_b778b3"
+	"style": {"fontFamily":"'__Inter_a184c8', '__Inter_Fallback_a184c8'","fontStyle":"normal"},
+	"className": "__className_a184c8"
 };
 
 
@@ -231,7 +231,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(1751);
 const _normalizetrailingslash = __webpack_require__(4674);
-const basePath = "/jalever.github.io" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     if (false) {}
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)((0, _addpathprefix.addPathPrefix)(path, basePath));
@@ -4552,7 +4552,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
         return getDomainLocale;
     }
 }));
-const basePath = (/* unused pure expression or super */ null && ("/jalever.github.io" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
