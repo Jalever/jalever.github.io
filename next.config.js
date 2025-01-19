@@ -6,7 +6,7 @@ const nextConfig = {
   swcMinify: true,
   output: "export",
   distDir: "docs",
-  assetPrefix: "/docs/",
+  assetPrefix: "/docs",
   basePath: "/docs",
 };
 
