@@ -1,12 +1,10 @@
 const { withContentlayer } = require("next-contentlayer");
-
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: "export",
-  distDir: "docs",
-  assetPrefix: "https://jalever.github.io/docs/",
+  // distDir: "docs",
 };
 
 module.exports = withContentlayer(nextConfig);
