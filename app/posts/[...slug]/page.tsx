@@ -12,7 +12,6 @@ async function getPostFromParams(params: PostProps["params"]) {
   const rawSlug = params?.slug?.join("/")
   const slug = decodeURIComponent(rawSlug)
   const post = allPosts.find((post) => post.slugAsParams === slug)
-
   if (!post) {
     null
   }
@@ -37,8 +36,8 @@ export async function generateMetadata({
 
 export async function generateStaticParams(): Promise<PostProps["params"][]> {
   return allPosts.map((post) => ({
-    slug: post.slugAsParams.split("/"),
-  }))
+      slug: post.slugAsParams.split("/"),
+    }))
 }
 
 export default async function PostPage({ params }: PostProps) {
